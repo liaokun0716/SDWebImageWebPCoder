@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SDWebImageWebPCoder'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'WebP decoder/encoder for SDWebImage coder plugin.'
 
   s.description      = <<-DESC
@@ -18,6 +18,7 @@ This is a SDWebImage coder plugin to support WebP image.
   s.watchos.deployment_target = '2.0'
   # s.module_map = 'SDWebImageWebPCoder/Module/SDWebImageWebPCoder.modulemap'
   
+  s.source_files = 'SDWebImageWebPCoder/Classes/HETLKTestModule.{h,m}'
   # s.source_files = 'SDWebImageWebPCoder/Classes/**/*', 'SDWebImageWebPCoder/Module/SDWebImageWebPCoder.h'
   # s.xcconfig = {
   #   'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SD_WEBP=1',

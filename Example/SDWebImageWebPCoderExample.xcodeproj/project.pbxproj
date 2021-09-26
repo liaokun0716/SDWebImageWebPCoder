@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		803D79DB213597CC00C815FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803D79DA213597CC00C815FC /* Assets.xcassets */; };
 		803D79DE213597CC00C815FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803D79DC213597CC00C815FC /* LaunchScreen.storyboard */; };
 		803D79E1213597CC00C815FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D79E0213597CC00C815FC /* main.m */; };
+		C6A90E6827003EAC00A82212 /* HETLKTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A90E6727003EAC00A82212 /* HETLKTestModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		803D79E0213597CC00C815FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4247F756BA5BBDD6FFE3E26 /* Pods_SDWebImageWebPCoderExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImageWebPCoderExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF474EBA40C51CBDE1C9406 /* Pods-SDWebImageWebPCoderExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageWebPCoderExample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImageWebPCoderExample/Pods-SDWebImageWebPCoderExample.release.xcconfig"; sourceTree = "<group>"; };
+		C6A90E6627003EAC00A82212 /* HETLKTestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HETLKTestModule.h; path = ../../SDWebImageWebPCoder/Classes/HETLKTestModule.h; sourceTree = "<group>"; };
+		C6A90E6727003EAC00A82212 /* HETLKTestModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HETLKTestModule.m; path = ../../SDWebImageWebPCoder/Classes/HETLKTestModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				803D79D2213597CB00C815FC /* AppDelegate.m */,
 				803D79D4213597CB00C815FC /* ViewController.h */,
 				803D79D5213597CB00C815FC /* ViewController.m */,
+				C6A90E6627003EAC00A82212 /* HETLKTestModule.h */,
+				C6A90E6727003EAC00A82212 /* HETLKTestModule.m */,
 				803D79D7213597CB00C815FC /* Main.storyboard */,
 				803D79DA213597CC00C815FC /* Assets.xcassets */,
 				803D79DC213597CC00C815FC /* LaunchScreen.storyboard */,
@@ -208,6 +213,7 @@
 			files = (
 				803D79D6213597CB00C815FC /* ViewController.m in Sources */,
 				803D79E1213597CC00C815FC /* main.m in Sources */,
+				C6A90E6827003EAC00A82212 /* HETLKTestModule.m in Sources */,
 				803D79D3213597CB00C815FC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
